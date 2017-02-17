@@ -37,7 +37,7 @@ public class UserController {
         //userRepository.save(userEntity);
 
         // 数据库中添加一个用户，并立即刷新缓存
-        UserEntity userEntity1 = userRepository.saveAndFlush(userEntity);
+        userRepository.saveAndFlush(userEntity);
 
         // 重定向到用户管理页面，方法为 redirect:url
         return "redirect:/admin/users";
