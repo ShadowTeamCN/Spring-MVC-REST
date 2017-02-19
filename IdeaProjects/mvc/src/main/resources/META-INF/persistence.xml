@@ -6,6 +6,7 @@
         <class>cn.ldx.model.SchoolEntity</class>
         <class>cn.ldx.model.StoreEntity</class>
         <class>cn.ldx.model.UserEntity</class>
+        <class>cn.ldx.model.CommentEntity</class>
         <properties>
             <!-- 使用MySQL方言 -->
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect"/>
